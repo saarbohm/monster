@@ -1,0 +1,136 @@
+body {
+    background-color: lightblue;
+}
+
+#monster {
+    position: absolute;
+    bottom: 500px;
+    left: 400px;
+    height: 400px;
+    width: 400px;
+}
+
+#sad {
+    height: 400px;
+    width: 400px;
+}
+
+#food {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+#play {
+    position: absolute;
+    bottom: 300px;
+    left: 500px;
+}
+
+#clean {
+    position: absolute;
+    bottom: 300px;
+    left: 800px;
+}
+
+#tekst {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-size: 20px;
+    color: lightcoral;
+    position: absolute;
+    top: 50px;
+    margin: 0px;
+}
+
+.naam {
+    font-size: 40px;
+    color: lightcoral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+}
+
+.kleur {
+    font-size: 20px;
+    color: rgb(83, 18, 189);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    left: 800px;
+}
+
+
+#clean:hover {
+    animation: bewegen 2s infinite;
+}
+
+@keyframes bewegen {
+    0% {
+        transform: rotate(0)
+    }
+
+    25% {
+        transform: rotate(5deg)
+    }
+
+    50% {
+        transform: rotate(0)
+    }
+
+    75% {
+        transform: rotate(-5deg)
+    }
+
+    100% {
+        transform: rotate(0)
+    }
+}
+
+.sporten {
+    animation: bewegen 2s infinite;
+}
+
+#kleuren {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+#kleuren {
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+}
+
+#kaars {
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+}
+
+.kaarsuit {
+    position: absolute;
+    top: 450px;
+    left: 1000px;
+}
+
+#speelruimte {
+    background-image: url(../_img/behang.jpg);
+    border: 2px solid lightblue;
+}
+
+#speelruimte {
+    width: 1500px;
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+#speelruimte {
+    margin-inline: auto;
+    margin-block: auto;
+}
